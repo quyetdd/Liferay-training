@@ -1,0 +1,4 @@
+Bundle-Name: account-setting-fragment
+Bundle-SymbolicName: account.setting.fragment
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.users.admin.web;bundle-version="3.0.50"

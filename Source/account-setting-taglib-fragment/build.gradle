@@ -1,0 +1,5 @@
+dependencies {
+	compile group: 'com.liferay', name: 'com.liferay.frontend.taglib', version: '3.2.2'
+	compile group: 'com.liferay', name: 'com.liferay.users.admin.api', version: '3.0.18'
+    compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel", version: "3.0.0"
+}

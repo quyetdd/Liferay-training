@@ -1,0 +1,4 @@
+Bundle-Name: account-setting-updatepassword
+Bundle-SymbolicName: account.setting.updatepassword
+Bundle-Version: 1.0.0
+Export-Package: account.setting.updatepassword.constants
