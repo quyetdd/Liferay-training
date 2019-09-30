@@ -33,7 +33,7 @@ Khi làm việc mà khách hàng không share thông tin gì vì lý do gì đó
    nhưng câu lệnh chung như thế này
 
 def sout = new StringBuilder(), serr = new StringBuilder()
-def proc = 'mysqldump -hlocalhost -u root -proot liferayqa -C --result-file=/usr/liferay/liferay-ce-portal-7.0-ga7/liferayqadb.txt'.execute()
+def proc = 'mysqldump -hlocalhost -u root -proot liferay -C --result-file=/usr/liferay/liferay-ce-portal-7.0-ga7/liferay.txt'.execute()
 proc.consumeProcessOutput(sout, serr)
 proc.waitForOrKill(10000)
 println "out>"
