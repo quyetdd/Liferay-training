@@ -43,3 +43,12 @@ println "$serr"
 
 đến đây ta có output của db backup để sử dụng
 
+4. có thể đọc lại file
+try {
+	java.io.File file = new java.io.File("/usr/liferay/liferay-ce-portal-7.0-ga7/liferay.txt");
+	String s = com.liferay.portal.kernel.util.FileUtil.read(file);
+	out.println(s);
+} catch (Exception e) {
+	out.println(e.getMessage());
+}
+
