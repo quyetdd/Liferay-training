@@ -25,7 +25,7 @@ Khi làm việc mà khách hàng không share thông tin gì vì lý do gì đó
  
  Vì lý do trên nên khó thực hiện tốt khi thiếu dữ liệu và môi trường khách hàng đã cài đặt
  
- chúng ta dùng thủ thuật sau
+ chúng ta dùng thủ thuật sau với trường hợp thiếu db sample
  1. hãy xin quyền admin của site liferay
  2. truy cập vào site với quyền admin chuyển sang tab Control panel -> Configuration -> Server admin --> groovy
  3. hãy dùng script sau để lấy backupdb
