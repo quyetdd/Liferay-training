@@ -21,7 +21,7 @@ before run internal command please setup  Environment variables point to folder 
 Khi làm việc mà khách hàng không share thông tin gì vì lý do gì đó (cái này thì thi thoảng)
 1 developer cần làm được việc khi
  - có cái để so sánh (và cần so sánh được)
- - có môi trường làm việc tương đồng hoặc 1 server testing hoặc staging có thể truy cập được
+ - có môi trường làm việc giống nhau hoặc 1 server testing hoặc staging có thể truy cập được
  
  Vì lý do trên nên khó thực hiện tốt khi thiếu dữ liệu và môi trường khách hàng đã cài đặt
  
